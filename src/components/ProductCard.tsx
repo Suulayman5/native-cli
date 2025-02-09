@@ -5,9 +5,6 @@ import { fontSize, spacing } from "../constants/dimention";
 import { fontFamily } from "../constants/fonts";
 import { useNavigation } from "@react-navigation/native";
 
-const imageUrl =
-  "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1694711060/Croma%20Assets/Communication/Wearable%20Devices/Images/301048_0_x1euf9.png";
-
 interface Product {
   image: string;
   name: string;
@@ -19,7 +16,7 @@ const ProductCard = ({ item }: { item: Product }) => {
   const navigation = useNavigation();
 
   const handleProductDetailsScreen = () => {
-    // navigation.navigate("PRODUCT_DETAILS", { item });
+    navigation.navigate("Product-Details", { item });
   };
 
   return (
