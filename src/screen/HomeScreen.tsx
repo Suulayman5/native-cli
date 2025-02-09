@@ -3,6 +3,7 @@ import React from 'react'
 import { fontSize, iconSize, spacing } from '../constants/dimention'
 import { colors } from '../constants/colors'
 import { fontFamily } from '../constants/fonts'
+import Category from '../components/category'
 
 const HomeScreen = () => {
   return (
@@ -17,6 +18,8 @@ const HomeScreen = () => {
           <Image source={require('../assets/category.png')} style={styles.logo} />
         </View>
       </View>
+
+      <Category />
     </View>
   )
 }
