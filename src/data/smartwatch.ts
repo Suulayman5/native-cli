@@ -22,7 +22,7 @@ export const smartWatch = [
       id: 2,
       name: 'Apple Watch Series 9 GPS with Midnight Sport Loop - M/L (45mm Display, Midnight Aluminium Case)',
       brand: 'Apple',
-      price: 50,
+      price: 220,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1694713068/Croma%20Assets/Communication/Wearable%20Devices/Images/300966_0_gwljol.png',
       images: [
@@ -41,7 +41,7 @@ export const smartWatch = [
       id: 3,
       name: 'Apple Watch Series 9 GPS with Light Pink Sport Loop - M/L (45mm Display, Pink Aluminium Case)',
       brand: 'Apple',
-      price: 50,
+      price: 250,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1694711609/Croma%20Assets/Communication/Wearable%20Devices/Images/300972_0_xfanmi.png',
       images: [
@@ -60,7 +60,7 @@ export const smartWatch = [
       id: 4,
       name: 'Apple Watch SE GPS with Starlight Sport Band - S/M (40mm Display, Starlight Aluminium Case)',
       brand: 'Apple',
-      price: 50,
+      price: 40,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1691133279/Croma%20Assets/Wearable/Wearable%20Devices/Images/275939_btbdux.png',
       images: [
@@ -79,7 +79,7 @@ export const smartWatch = [
       id: 5,
       name: 'SAMSUNG Galaxy Fit3 Smartwatch with 100 Plus Watch Faces (40.9mm AMOLED Display, IP68 Water Resistant, Pink Gold Strap)',
       brand: 'SAMSUNG ',
-      price: 50,
+      price: 90,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1709216811/Croma%20Assets/Wearable/Wearable%20Devices/Images/305252_evl3t2.png',
       images: [
@@ -98,7 +98,7 @@ export const smartWatch = [
       id: 6,
       name: 'SAMSUNG Galaxy Fit3 Smartwatch with 100 Plus Watch Faces (40.9mm AMOLED Display, IP68 Water Resistant, Pink Gold Strap)',
       brand: 'SAMSUNG ',
-      price: 50,
+      price: 59,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701199278/Croma%20Assets/Communication/Wearable%20Devices/Images/275937_0_fajw2d.png',
       images: [

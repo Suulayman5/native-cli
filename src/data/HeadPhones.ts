@@ -3,7 +3,7 @@ export const headphones = [
       id: 1,
       name: 'SONY WH-CH520 Bluetooth Headphone with Mic (30mm Driver, On Ear, Blue)',
       brand: 'Sony',
-      price: 50,
+      price: 100,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1682587116/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/271047_0_yaama6.png?tr=w-640',
       images: [
@@ -21,7 +21,7 @@ export const headphones = [
       id: 2,
       name: 'boAt Rockerz 550 Bluetooth Headphone with Mic (Dual Connectivity, Over Ear, Black)',
       brand: 'Boat',
-      price: 50,
+      price: 120,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1717762243/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/246221_swdnum.png?tr=w-640',
       images: [
@@ -39,7 +39,7 @@ export const headphones = [
       id: 3,
       name: 'JBL Tune 770NC Bluetooth Headphone with Adaptive Noise Cancellation (Pure Bass Sound, Over Ear, Black)',
       brand: 'JBL',
-      price: 50,
+      price: 80,
       image:
         'https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1697624372/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/273406_rznbvr.png?tr=w-640',
       images: [
