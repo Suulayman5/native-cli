@@ -4,6 +4,7 @@ import { fontSize, iconSize, spacing } from '../constants/dimention'
 import { colors } from '../constants/colors'
 import { fontFamily } from '../constants/fonts'
 import Category from '../components/category'
+import ProductCard from '../components/ProductCard'
 
 const HomeScreen = () => {
   return (
@@ -20,6 +21,8 @@ const HomeScreen = () => {
       </View>
 
       <Category />
+      
+      <ProductCard/>
     </View>
   )
 }
@@ -28,12 +31,11 @@ export default HomeScreen
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         backgroundColor: colors.background,
         padding: spacing.md,
     },
     headline: {
-        fontSize: fontSize.xl,
+        fontSize: fontSize.xxl,
         fontFamily: fontFamily.Bold,
         color: colors.black,
     },

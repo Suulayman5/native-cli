@@ -13,7 +13,7 @@ const Category = () => {
   }
   return (
     <FlatList data={category}                                                       
-     renderItem={({ item,index }) => (
+     renderItem={({ item }) => (
         <TouchableOpacity onPress={() => onSelectCategory(item.name)}>
           <Text style={[styles.categoryText, selectedCategory === item.name && {color:colors.purple}]}>{item.name}</Text>
           {selectedCategory=== item.name && <View style={styles.underline}/>}
@@ -22,6 +22,7 @@ const Category = () => {
       keyExtractor={(item) => item.id.toString()}
       horizontal
       ItemSeparatorComponent={ () => <View style={{paddingHorizontal: spacing.sm}}/>}
+      showsHorizontalScrollIndicator={false}
     />
   )
 }
@@ -39,5 +40,6 @@ const styles = StyleSheet.create({
         borderBottomWidth: 2,
         marginTop: spacing.sm,
         width: '50%',
+        marginBottom: spacing.sm,
     },
 })
